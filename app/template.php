@@ -7,11 +7,11 @@
         <meta name="keywords" content="Strona domowa, myhomepage, homepage, mateusz, kadłubowski, mateusz kadłubowski, umk, toruń, 267532" >
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="app/css/main.css">
-        <title>Strona domowa | <?php /* echo $tytul; */ ?></title>
+        <title>Strona domowa | <?php echo $title; ?></title>
+        <base href="<?php echo SERVER_ADDRESS; ?>">
     </head>
     <body>
         <div class="contener">
-
             <header>
                 <div class="left-blur"></div>
                 <div class="right-blur"></div> 
@@ -26,25 +26,23 @@
                 <div class="side-panel">
                     <section class="priv">
                         <i class="icon-lock"></i> <h2>Strefa prywatna</h2>
-                        <!--  TRESC PRIV -->
+                        <?php include $privAreaFile; ?>
                     </section>
                     <nav>
                         <i class="icon-list"></i> <h2>Menu</h2> <i class="icon-list"></i>
                         <ul class="list" id="menu">
-                            <!-- MENU <?php //echo automatyczneMenu($pages, 'menu');     ?> -->
+                            <li><a href="?page=wykres_silowy">Wykres siłowy</a></li>
+                            <li><a href="?page=phpterminal">PHPterminal</a></li>
                         </ul>
                     </nav> 
                     <section class="links">
                         <i class="icon-pin"></i> <h2>Linkownia</h2> <i class="icon-pin"></i>
                         <ul class="list">
-                            <li>Linki</li>
                         </ul>
                     </section>
                 </div>
                 <main class="text">
-                    <article>
-                        Treść
-                    </article>
+                    <?php include $content; ?>
                 </main>
             </div>
             <footer>
@@ -52,5 +50,6 @@
             </footer>
         </div>
     </body>
-    <!-- SKRYPTY JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app/js/skrypt.js"></script>
 </html>

@@ -13,8 +13,9 @@ class Url {
         if (isset($_GET['page'])) {
             $this->page = $this->sanitize($_GET['page']);
             unset($_GET['page']);
+        } else {
+            $this->page = $this->default_page;
         }
-        $this->page = $this->default_page;
     }
 
     public function getPage() {

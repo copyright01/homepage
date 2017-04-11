@@ -5,7 +5,11 @@
 
 @import "reset.min.css";
 @import "fontello.min.css";
+@import "media480.css";
 
+.slicknav_menutxt {
+    display: none;
+}
 body {
     background: #B4B4B4 url("../img/pattern.jpg");
     font-family: Georgia, "Times New Roman", serif;
@@ -97,4 +101,116 @@ header > a:hover {
 }
 .priv > a:hover > i {
     text-shadow: none;
+}
+.priv input {
+    background-color: #999;
+    border: 1px #666 solid;
+    width: 150px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 6px;
+    outline: none;
+}
+.links {
+    border-top: 3px solid #ccc;
+}
+ul.list {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+ul.list > li {
+    height: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: 1px solid #555;
+    font-size: 1.6em;
+}
+ul.list > li > a {
+    color: white;
+    text-shadow: 1px 1px 0px #000;
+    display: block;
+}
+ul.list > li:hover {
+    background-color: #999;
+    cursor: pointer;
+}
+ul.list > li:hover > a {
+    text-align: right;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.aktiv {
+    background-color: #999;
+    font-weight: bold;
+}
+.text {
+    width: 74%; /* 670px */
+    background: url('../img/section_bg.jpg') no-repeat #fff;
+    min-height: 300px;
+    float: right;
+    font-size: 1.6em;
+    padding-bottom: 50px;
+}
+.text  h2 {
+    border-bottom: 2px solid #c4c4c4;
+    color: #45484c;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+}
+p, .text > ul {
+    margin-top: 15px;
+    line-height: 130%;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+p:first-letter {
+    font-size: 1.4em;
+}
+.text > ul > li:before {
+    content: '- ';
+}
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/* ----------> UPLOAD <---------- */
+#upload {
+    margin: 20px 30px;
+}
+#upload form, #listing {
+    border: 2px solid #666;
+    padding: 20px 20px;
+}
+#listing{
+    border-top:none;
+}
+#file {
+    border: 1px solid #ccc;
+}
+#upload .error {
+    color: red;
+}
+#upload .success {
+    color: green;
+}
+#upload ul > li {
+    margin-bottom: 12px;
+}
+#upload ul > li:before {
+    content: '–> ';
 }
