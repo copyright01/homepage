@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www.fizyka.umk.pl/~267532/$1 [R=301,L]
