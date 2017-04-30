@@ -13,7 +13,19 @@
         <input type="file" name="file" id="file">
         <input type="submit" name="submit" value="Załaduj plik">
     </form>
-
+	<div class="ramka">
+<div id="dropZone">
+            Przeciągnij tutaj pliki
+        </div>
+        <div id="filesContainer"></div>
+		<button id="sendUpload">Wyślij</button>
+		<div id="progressUpload">
+			<div id="progressBar">
+				<span></span>
+			</div>
+		</div>
+		<div id="statusUpload"></div>
+		</div>
     <div id="listing">
         <?php
         echo $files->listing();
