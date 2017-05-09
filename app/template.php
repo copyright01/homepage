@@ -46,7 +46,7 @@
                 </main>
             </div>
             <footer>
-                Copyright 2017 &copy; Mateusz Kadłubowski - Strona domowa. <i class="icon-mail"></i>Kontakt: mkadlubow@gmail.com
+                Copyright 2017 &copy; Mateusz Kadłubowski - Strona domowa. <i class="icon-mail"></i>Kontakt: <a href="mailto:kontakt@mateuszkadlubowski.pl">kontakt@mateuszkadlubowski.pl</a>
             </footer>
         </div>
     </body>
