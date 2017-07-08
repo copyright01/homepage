@@ -4,6 +4,6 @@
     </h2>
     <p>
         Oto przykład prostego, interaktywnego wykresu siłowego stworzonego przy pomocy biblioteki d3.<br><br>
-        Kliknij: <a href="wykres_silowy/" title="Przejdź">pokaż demo</a>
+        Kliknij: <a href="wykres_silowy/" title="Przejdź" target="_blank">pokaż demo</a>
     </p>
 </article>

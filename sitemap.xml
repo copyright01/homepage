@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://www.fizyka.umk.pl/~267532/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.fizyka.umk.pl/~267532/?page=index</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.fizyka.umk.pl/~267532/?page=wykres_silowy</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.fizyka.umk.pl/~267532/?page=phpterminal</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.fizyka.umk.pl/~267532/wykres_silowy/</loc>
+  <lastmod>2017-04-09T19:07:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.fizyka.umk.pl/~267532/PHPterminal/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
