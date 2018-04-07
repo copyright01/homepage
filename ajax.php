@@ -22,6 +22,8 @@ if (isset($_SESSION['priv'])) {
         }
 
         if ($errors > 0) {
+        	$Files = new Files();
+
             echo json_encode(array(
                 "error" => true,
                 "message" => "Wystąpił błąd!"

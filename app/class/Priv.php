@@ -9,7 +9,7 @@ class Priv {
     public function __construct() {
         if (isset($_POST['pass'])) {
             if (!file_exists($this->secureFile)) {
-                echo 'Nie dolaczono pliku konfiguracyjnego!!!';
+                echo 'Nie dolaczono pliku secure!!!';
             }
             include $this->secureFile;
             $passHash = md5($_POST['pass']);

@@ -3,7 +3,7 @@
 /**
  * Plik inicjalizujacy
  */
-error_reporting(E_ALL);
+error_reporting(0);
 if (!isset($_SESSION)) {
     session_start();
 }

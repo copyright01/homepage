@@ -6,7 +6,7 @@
         <meta name="description" content="Moja strona domowa. Zapraszam :)" >
         <meta name="keywords" content="Strona domowa, myhomepage, homepage, mateusz, kadłubowski, mateusz kadłubowski, umk, toruń, 267532" >
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="app/css/css.css">
+        <link rel="stylesheet" href="app/css/css.min.css">
         <title>Strona domowa | <?php echo $title; ?></title>
         <base href="<?php echo SERVER_ADDRESS; ?>">
     </head>
@@ -31,14 +31,14 @@
                     <nav>
                         <i class="icon-list"></i> <h2>Menu</h2> <i class="icon-list"></i>
                         <ul class="list" id="menu">
-                            <li><a href="?page=wykres_silowy" target="_blank">Wykres siłowy</a></li>
-                            <li><a href="?page=phpterminal" target="_blank">PHPterminal</a></li>
+                            <li><a href="?page=wykres_silowy">Wykres siłowy</a></li>
+                            <li><a href="?page=phpterminal">PHPterminal</a></li>
                         </ul>
                     </nav> 
                     <section class="links">
                         <i class="icon-pin"></i> <h2>Linkownia</h2> <i class="icon-pin"></i>
                         <ul class="list">
-						<li><a href="http://mateuszkadlubowski.pl/" target="_blank">Portfolio</a></li>
+						<li><a href="https://mateuszkadlubowski.pl/" target="_blank">Portfolio</a></li>
                         </ul>
                     </section>
                 </div>
@@ -51,5 +51,5 @@
             </footer>
         </div>
     </body>
-	<script src="app/js/js.js" async></script>
+	<script src="app/js/js.min.js" async></script>
 </html>
