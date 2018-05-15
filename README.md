@@ -1,4 +1,4 @@
-# Homepage
+﻿# Homepage
 
 Strona domowa umieszczona na serwerze uczelnianym. Napisana na potrzeby zaliczenia przedmiotu w jeden dzień. Później służyła jako repozytorium notatek ze studiów i miejsce do umieszczania pomniejszych projektów.
 
@@ -9,3 +9,11 @@ _____
 Stronę można obejrzeć klikając [***tutaj***][homepage].
 
 [homepage]: https://www7.fizyka.umk.pl/~267532/
+
+
+
+_____
+### Licencja 
+Aplikacja jest udostępniana na [licencji MIT](LICENCE.md).
+
+
